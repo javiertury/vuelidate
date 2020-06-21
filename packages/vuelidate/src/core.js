@@ -292,6 +292,8 @@ function createValidationResults (rules, state, key, parentKey, resultsStorage, 
  * @param {Object<NormalizedValidator|Function>} validations - The validation
  * @param {Object} state - Parent state
  * @param {String} [key] - Parent level state key
+ * @param {*} - Path
+ * @param {*} - resultsStorage
  * @return {{}}
  */
 function collectNestedValidationResults (validations, state, key, path, resultsStorage) {
